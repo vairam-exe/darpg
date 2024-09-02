@@ -1,0 +1,14 @@
+google-generativeai
+pyyaml
+pandas
+streamlit
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+python-dotenv
+langchain-community
+pandas
+langchain_openai
+streamlit-aggrid
