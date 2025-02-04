@@ -1,7 +1,7 @@
 name: Gemini PR Review
 permissions:
-  contents: read
-  actions: read
+  contents: write
+  actions: write
   checks: write
 'on':
   pull_request:
