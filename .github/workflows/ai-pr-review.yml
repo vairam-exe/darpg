@@ -53,5 +53,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: '## 🤖 Gemini Code Review\n\n' + review
+              body: '##Code Review\n\n' + review
             });
