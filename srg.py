@@ -1,7 +1,18 @@
 def add_numbers(a, b):
     """
-    Converts inputs to integers and returns their sum.
-    If conversion fails, it raises a ValueError.
+    Convert two values to integers and return their sum.
+    
+    This function attempts to convert both inputs, `a` and `b`, into integers and then computes their sum. If either conversion fails, a ValueError is raised with a message that includes the original error details.
+    
+    Parameters:
+        a (Any): A value that must be convertible to an integer.
+        b (Any): A value that must be convertible to an integer.
+    
+    Returns:
+        int: The sum of the integer representations of `a` and `b`.
+    
+    Raises:
+        ValueError: If either `a` or `b` cannot be converted to an integer.
     """
     try:
         return int(a) + int(b)
